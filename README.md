@@ -30,5 +30,5 @@ At the end of the project, we should have been able to learn the following:
 - `console.py` file is the entry point of out command interpreter.
 - `models/base_model.py file is the base clas  of all models. It contains elements like
 	- attributes: `id`, `created_at`, and `updated_at`.
-	- methodes: save() and to_json().
+	- methodes: `save()` and `to_json()`.
  
