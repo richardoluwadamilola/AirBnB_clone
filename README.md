@@ -22,3 +22,9 @@ At the end of the project, we should have been able to learn the following:
 - what is *args and how to use it
 - What is **kwargs and how to use it
 - How to handle named arguments in a function
+
+## Files and Directories
+
+- models directory will contain all classes used for the entre project. A class called "model" in a OOP project is the representation of an object/instance.
+- tests directory will contain all unit tests files.
+- console.py file is the entry point of out command interpreter.
