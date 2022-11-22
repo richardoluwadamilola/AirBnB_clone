@@ -25,6 +25,10 @@ At the end of the project, we should have been able to learn the following:
 
 ## Files and Directories
 
-- `models` directory will contain all classes used for the entre project. A class called "model" in a OOP project is the representation of an object/instance.
+- `models` directory will contain all classes used for the entre project. A class called "model" in an OOP project is the representation of an object/instance.
 - `tests` directory will contain all unit tests files.
 - `console.py` file is the entry point of out command interpreter.
+- `models/base_model.py file is the base clas  of all models. It contains elements like
+	- attributes: `id`, `created_at`, and `updated_at`.
+	- methodes: save() and to_json().
+ 
