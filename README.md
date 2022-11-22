@@ -1,6 +1,6 @@
 # Description of the project
 
-The ALX AirBnB project is a test of all we have been doing for the past couple of months now at the ALX Software Engineering Program. The goal of the project is to deploy a replica of the [Airbnb website] (https://www.airbnb.com/) on a server. The final version of this project will include:
+The ALX AirBnB project is a test of all we have been doing for the past couple of months now at the ALX Software Engineering Program. The goal of the project is to deploy a replica of the [Airbnb website](https://www.airbnb.com/) on a server. The final version of this project will include:
 
 - A command interpreter to manipulate data like a shell.
 - A website(Frontend) with static and dynamic functionalities.
