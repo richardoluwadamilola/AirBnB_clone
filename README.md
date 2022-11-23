@@ -47,9 +47,9 @@ This phase is to manipulate a powerful storage system to give an abstraction bet
 - store and persist objects to files(JSON files)S
 
 ## Description of the command interpreter
- 		Commands               		| Descriptions
- 		-----------------------		|:----------------
-		 `quit`		       		| Quits the Console
-		 'Ctrl+D`              		| Quits the console
-		 'help'or `help <command>` 	| Displays all commands or Displays 						      instructions for a specific 						     command
+ Commands               	| Descriptions
+ -----------------------	|:----------------
+ `quit`		       		| Quits the Console
+ 'Ctrl+D`              		| Quits the console
+ 'help'or `help <command>` 	| Displays all commands or Displays 						   instructions for a specific command
 			
