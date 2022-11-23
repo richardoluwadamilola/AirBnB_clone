@@ -56,8 +56,8 @@ This phase is to manipulate a powerful storage system to give an abstraction bet
 `show <class> <ID>`	        | Shows string representation of an object
 `destroy <class> <ID>`		| Deletes an object
 `all or all <class>`		| Prints all string representation of all objects or 				        prints all string representations of all objects 				    of a specific class
-`update <class> <id> <attribute
+`update <class> <id> <attribute |
 name> "attribute value>"`	| Updates an objects with a certain 
-				   attribute(new or existing)  
+				|   attribute(new or existing)  
 
 			
