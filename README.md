@@ -51,5 +51,13 @@ This phase is to manipulate a powerful storage system to give an abstraction bet
  -----------------------	|:----------------
  `quit`		       		| Quits the Console
  'Ctrl+D`              		| Quits the console
- 'help'or `help <command>` 	| Displays all commands or Displays 						   instructions for a specific command
+`help` or `help <command>` 	| Displays all commands or Displays 						   instructions for a specific command
+`create <class>			| Creates an object of type, saves it to a JSON file, 					and prints the objects ID
+`show <class> <ID>`	        | Shows string representation of an object
+`destroy <class> <ID>`		| Deletes an object
+`all or all <class>`		| Prints all string representation of all objects or 				        prints all string representations of all objects 				    of a specific class
+`update <class> <id> <attribute | Updates an object with a certain 
+				   attribute (new existing)
+name> "<attribute value>"
+
 			
