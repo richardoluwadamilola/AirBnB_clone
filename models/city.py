@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """This module creates a User class"""
 
-from models.BaseModel import BaseModel
+from models.base_model import BaseModel
 
 
-class City(BAseModel):
-  """This class managers cities"""
+class City(BaseModel):
+  """This class managers cities Objects"""
+  
   name= " "
   state_id= " "
