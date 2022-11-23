@@ -39,7 +39,7 @@ The implementation of the project will happen in the following phases:
 This phase is to manipulate a powerful storage system to give an abstraction between objects and how they are stored and persisted. To achieve this, we will:
 - put in a parent class ( called BaseModel) to take care of the initialization, serialization and seserialization of future instances
 - create a simple flow of serialization/deserializatio: instance <-> Dictionary <-> JSON string <-> file
-- create all classes used for AirBnB(User,State, City, Place, Review...) that inherits from BaseModel
+- create all classes used for AirBnB(User, State, City, Place, Review...) that inherits from BaseModel
 - create the first abstracted storage engine of the project: File Storage
 - create all unittests to validate all our classess and storage engine
 - create a data model 
@@ -47,3 +47,7 @@ This phase is to manipulate a powerful storage system to give an abstraction bet
 - store and persist objects to files(JSON files)S
 
 ## Description of the command interpreter
+ Commands               | Descriptions
+ -----------------------|:----------------
+ `quit`			| Quits the Console
+			
