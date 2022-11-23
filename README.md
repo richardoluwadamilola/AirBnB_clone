@@ -64,4 +64,41 @@ This phase is to manipulate a powerful storage system to give an abstraction bet
 `<class>.update(<ID>), <attribute name>, <attribute value>`      | Same as update 								     `<class> <ID> 								       <attribute name> 								    <attribute 								             value>`
 `<class>.update(<ID>, <dictionary representation>)`            | Updates an object 							          based on a dictionary 				                                representation of 				                                  attribute name and 						                      values
 
-			
+## General Execution
+The shell should work like this ininteractive mode
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+But also in non-interactive mode: (like the Shell project in C)
+
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+```
+## Authors
+Richard Oluwadamilola
+Fiifi Asare-Kumi
