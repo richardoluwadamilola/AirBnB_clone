@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""This module creates a User class"""
+#This module creates a state class
 from models.base_model import BaseModel
 
-class state(BaseModel):
+class State(BaseModel):
   """Class Manages state objects"""
   
-  name= ""
+  name = ""
