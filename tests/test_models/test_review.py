@@ -8,21 +8,21 @@ from models.review impoer Review
 from datetime import datetime
 
 class TestReview(unittest.TestCase):
-    #Test instances and methods from review class
+    """Test instances and methods from review class"""
 
     r = Review()
 
     def test_class_exists(self):
-        #test if class exists
+        """test if class exists"""
         res = "<class 'models.review.Review'>"
         self.asserEqual(str(type(self.r)), res)
 
     def test_user_inheritance(self):
-        #test if Review is a subclass of BaseModel
+        """test if Review is a subclass of BaseModel"""
         self.assertIsInstance(self.r, Review)
 
     def testHasAttributes(self):
-        #verify if attributes exist
+        """verify if attributes exist"""
         self.assertTrue(hasattr(self.r, 'place_id'))
         self.assertTrue(hasattr(self.r, 'user_id'))
         self.assertTrue(hasattr(self.r, 'text'))
@@ -31,13 +31,14 @@ class TestReview(unittest.TestCase):
         self.assertTrue(hasattr(self.r, 'updated_at'))
 
     def test_types(self):
-        tests if the type of the attribute is the correct one
+        """tests if the type of the attribute is the correct one"""
         self.assertIsInstance(self.r.place_id, str)
         self.assertIsInstance(self.r.user_id, str)
         self.assertIsInstance(self.r.text, str)
         self.assertIsInstance(self.r.id, str)
         self.assertIsInstance(self.r.created_at, datetime.datetime)
         self.assertIsInstance(self.r.updated_at, datetime.datetime)
+
 
 if __name__ == '__main__':
     unittest.main()
