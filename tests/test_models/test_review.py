@@ -2,20 +2,20 @@
 """
 Unittest for review.py
 """
-
 import unittest
-from models.review impoer Review
-from datetime import datetime
+from models.review import Review
+import datetime
+
 
 class TestReview(unittest.TestCase):
-    """Test instances and methods from review class"""
+    """Tests instances and methods from Review class"""
 
     r = Review()
 
     def test_class_exists(self):
-        """test if class exists"""
+        """tests if class exists"""
         res = "<class 'models.review.Review'>"
-        self.asserEqual(str(type(self.r)), res)
+        self.assertEqual(str(type(self.r)), res)
 
     def test_user_inheritance(self):
         """test if Review is a subclass of BaseModel"""
@@ -38,7 +38,3 @@ class TestReview(unittest.TestCase):
         self.assertIsInstance(self.r.id, str)
         self.assertIsInstance(self.r.created_at, datetime.datetime)
         self.assertIsInstance(self.r.updated_at, datetime.datetime)
-
-
-if __name__ == '__main__':
-    unittest.main()
