@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-Unittest for city.py
+Unittest for user.py
 """
-
 import unittest
 from models.city import City
-from datetime import datetime
+import datetime
+
 
 class TestCity(unittest.TestCase):
     """Tests instances and methods from city class"""
@@ -35,7 +35,6 @@ class TestCity(unittest.TestCase):
         self.assertIsInstance(self.c.id, str)
         self.assertIsInstance(self.c.created_at, datetime.datetime)
         self.assertIsInstance(self.c.updated_at, datetime.datetime)
-
 
 if __name__ == '__main__':
     unittest.main()
