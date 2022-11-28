@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 """
-Unittests for place.py
+Unittest for amenity.py
 """
-
-imort unittest
+import unittest
 from models.place import Place
-from datetime import datetime
+import datetime
+
 
 class TestPlace(unittest.TestCase):
-    """Test instances and methods from place class"""
+    """Tests instances and methods from amenity class"""
 
     p = Place()
 
