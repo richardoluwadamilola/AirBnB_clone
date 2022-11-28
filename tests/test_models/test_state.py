@@ -1,24 +1,25 @@
 #!/usr/bin/python3
 """
-Unittest for state.py
+Unittest for amenity.py
 """
 import unittest
 from models.state import State
-from datetime import datetime
+import datetime
+
 
 class TestState(unittest.TestCase):
-    """Test instances and methods from State class"""
+    """ Tests instances and methods from State class """
 
     s = State()
 
     def test_class_exists(self):
-        """test if class exists"""
+        """tests if class exists"""
         res = "<class 'models.state.State'>"
-        self.assertEqual(str(type.s)), res)
+        self.assertEqual(str(type(self.s)), res)
 
     def test_user_inheritance(self):
-        """test if state is a subclass of base class/model"""
-        self.assertInInstance(self.s, State)
+        """test if State is a subclass of BaseModel"""
+        self.assertIsInstance(self.s, State)
 
     def testHasAttributes(self):
         """verify if attributes exist"""
@@ -36,4 +37,4 @@ class TestState(unittest.TestCase):
 
 
 if __name__ == '__main__':
-        unittest.main()
+    unittest.main()
